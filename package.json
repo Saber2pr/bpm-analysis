@@ -1,12 +1,12 @@
 {
   "name": "bpm-test",
   "version": "0.0.1",
-  "description": "",
+  "description": "电子音乐 BPM 分析",
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/Saber2pr/bpm-analysis.git"
   },
-  "author": "",
+  "author": "saber2pr",
   "license": "ISC",
   "files": [
     "lib/core/*",
@@ -14,7 +14,6 @@
   ],
   "main": "./lib/index.js",
   "scripts": {
-    "test": "node ./lib/test/test.js",
     "start": "tsc --watch",
     "dev": "rollup -c --watch"
   },
