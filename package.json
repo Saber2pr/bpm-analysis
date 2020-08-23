@@ -1,0 +1,32 @@
+{
+  "name": "bpm-test",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node ./lib/test/test.js",
+    "start": "tsc --watch",
+    "dev": "rollup -c --watch"
+  },
+  "devDependencies": {
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@saber2pr/react": "^0.3.2",
+    "bpm-detective": "^2.0.3",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
